@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Mini</title>
+    <link rel="stylesheet" href="sps.css">
+</head>
+<body>
+    <p class="score">ROCK PAPER SCISSOR</p>
+    <div id = game-box>
+        <div class = "btn" >
+            <img src="images/rock.png" alt="stone image"  onclick="play('stone')" id="stone">
+        </div>
+        <div class = "btn">
+            <img src="images/paper.png" alt="paper image"  onclick="play('paper')" id="paper">
+        </div>
+        <div class= "btn">
+            <img src="images/scissors.png" alt="scissor image" onclick="play('scissor')" id="scissor">
+        </div>
+    </div>
+    <p></p>
+
+    <div class="points">
+        <p class="point" id="win">WIN : 0</p>
+        <p class="point" id="lose">LOSE : 0</p>
+        <p class="point" id="draw">DRAW : 0</p>
+    </div>
+
+    <script src="sps.js"></script>
+</body>
+</html>
